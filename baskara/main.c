@@ -17,7 +17,7 @@ int main()
 
     delta = pow(b, 2) - 4 * a * c;
 
-    if(delta < 0 || a == 0)
+    if (delta < 0 || a == 0)
     {
         printf("Esta equacao nao possui raizes reais\n");
     }
@@ -28,7 +28,6 @@ int main()
         printf("X1 = %.4lf\n", x1);
         printf("X2 = %.4lf\n", x2);
     }
-
 
     return 0;
 }
