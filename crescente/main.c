@@ -4,11 +4,11 @@
 int main()
 {
 
-    double x, y;
+    int x, y;
 
     printf("Digite dois numeros: \n");
-    scanf("%lf", &x);
-    scanf("%lf", &y);
+    scanf("%d", &x);
+    scanf("%d", &y);
 
     while(x != y)
     {
@@ -23,8 +23,8 @@ int main()
         }
 
         printf("Digite outros dois numeros: \n");
-        scanf("%lf", &x);
-        scanf("%lf", &y);
+        scanf("%d", &x);
+        scanf("%d", &y);
     }
 
     return 0;
